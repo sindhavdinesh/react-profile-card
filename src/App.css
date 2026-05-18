@@ -17,6 +17,7 @@ body {
   font-size: 45px;
   margin-bottom: 50px;
   font-weight: bold;
+  color: white;
 }
 
 .card-container {
@@ -48,12 +49,14 @@ body {
 .card-content {
   padding: 25px;
   text-align: center;
+  overflow-wrap: break-word;
 }
 
 .card h2 {
   margin: 0;
   font-size: 30px;
   margin-bottom: 10px;
+  color: white;
 }
 
 .card h3 {
@@ -67,6 +70,22 @@ body {
   color: #cbd5e1;
   line-height: 1.7;
   font-size: 16px;
+  margin: 8px 0;
+}
+
+.mobile {
+  margin-top: 12px;
+  color: #38bdf8 !important;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.email {
+  margin-top: 8px;
+  color: #facc15 !important;
+  font-weight: bold;
+  font-size: 15px;
+  word-break: break-word;
 }
 
 .btn {
